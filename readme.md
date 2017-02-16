@@ -17,7 +17,7 @@ var easings = require('postcss-easings')
 ```
 
 This:
-```
+```css
 .ease-in-sine {
   transition: opacity 300ms easeInSine;
 }
@@ -28,7 +28,7 @@ This:
 ```
 
 Compiles to:
-```
+```css
 .ease-in-sine {
   transition: opacity 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
