@@ -4,7 +4,7 @@ Custom easing functions for PostCSS! :chart_with_upwards_trend:
 
 ## Installation
 
-```
+```javascript
 npm install postcss-easings
 ```
 
@@ -12,7 +12,7 @@ npm install postcss-easings
 
 Wherever you've configured PostCSS:
 
-```
+```javascript
 var easings = require('postcss-easings')
 ```
 
