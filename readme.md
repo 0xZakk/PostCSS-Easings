@@ -10,6 +10,12 @@ npm install postcss-easings
 
 ## Usage
 
+Whereever you've configured PostCSS:
+
+```
+var easings = require('postcss-easings')
+```
+
 This:
 ```
 .ease-in-sine {
